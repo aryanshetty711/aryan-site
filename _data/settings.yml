@@ -4,7 +4,7 @@ menu:
 - {name: 'projects', url: '/projects'}
 - {name: 'photography', url: '/photography'}
 - {name: 'blog', href: 'https://drive.google.com/drive/folders/1NiihHS6UpGeFRC88_WU25MU7aCrhmTTu'}
-- {name: 'resume', href: '/assets/resume.pdf'}
+- {name: 'resume', url: '/assets/resume.pdf'}
 
 social:
 - {icon: 'github', link: 'https://github.com/LeNPaul'}
