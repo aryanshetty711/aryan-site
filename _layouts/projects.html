@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="row g-5 mb-5">
+  <div class="col-md-12">
+    <h3 class="fw-bold pb-3 mb-5">Projects</h3>
+    {% for project in site.projects %}
+    <a href="{{ site.url }}/projects{{ project.url }}" style="text-decoration: none;">
+      <div class="row g-5" >
+        <div class="col-md-8">
+          <h4>{{ project.title }}</h4>
+          <div>{{ project.description }}</div>
+        </div>
+        <div class="col-md-4" style="min-height: 200px; background-size: cover; background-image: url({{ project.img }}); background-position: center;"></div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</div>
