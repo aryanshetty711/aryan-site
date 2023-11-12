@@ -26,6 +26,20 @@ The `_layouts/publications.html` layout can be used to showcase selected publica
 
 To set up your environment to develop this theme, clone the repo, run `bundle install`, then run `bundle exec jekyll serve`, and open your browser at `http://localhost:4000`. This starts a Jekyll server using this theme. Make changes to the pages, documents, data, etc. like normal to test this theme's contents. As you make modifications to this theme the site will regenerate and you should see the changes in the browser after a refresh.
 
+## How to develop
+
+To make a new page at `yoururl.com/newpage`, make a file called `newpage.md`, define the front matter. 
+```
+---
+layout: photography
+title: "New Page"
+---
+```
+
+To modify the templates your page uses, modify the corresponding `layoutname.html`
+
+When writing markdown, define relative/internal links like this `{{ site.baseurl }}/photography`
+
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
