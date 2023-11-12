@@ -4,9 +4,9 @@ layout: default
 
 <div class="row g-5 mb-5">
   <div class="col-md-12">
-    <h3 class="fw-bold border-bottom pb-2 mb-5">{{ page.title }}</h3>
-    <div class="pb-2">{{ page.date }}</div>
-    <img class="w-100 pb-3" src="{{ page.img | relative_url }}"/>
+    <h3 class="fw-bold pb-2">{{ page.title }}</h3>
+    <div class="pb-2 text-muted mb-5">{{ page.date | date: "%-d %B %Y" }}</div>
+    <img class="w-100 pb-3" style="max-height: 500px;" src="{{ page.img | relative_url }}"/>
     {{ content }}
   </div>
 </div>
