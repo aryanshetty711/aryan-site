@@ -6,7 +6,7 @@ layout: default
   <div class="col-md-12">
     <h3 class="fw-bold border-bottom pb-2 mb-5">{{ page.title }}</h3>
     <div class="pb-2">{{ page.date }}</div>
-    <img class="w-100 pb-3" src="{{ page.img }}"/>
+    <img class="w-100 pb-3" src="{{ page.img | relative_url }}"/>
     {{ content }}
   </div>
 </div>
