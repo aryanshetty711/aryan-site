@@ -3,13 +3,13 @@
 >
   <div>
     <a
-      href="{{ site.github.url }}/"
+      href="{{ site.url }}{{ site.baseurl }}/"
       class="d-flex align-items-center text-decoration-none"
     >
       <span class="fs-4 fw-bold">{{ site.data.settings.header_title }}</span>
     </a>
     <a
-      href="{{ site.github.url }}/"
+      href="{{ site.url }}{{ site.baseurl }}/"
       class="d-flex align-items-center text-decoration-none"
     >
       <span>{{ site.description }}</span>
@@ -26,7 +26,7 @@
     {% else %}
     <a
       class="me-3 py-2 text-decoration-none"
-      href="{{ site.github.url }}{{ item.url }}"
+      href="{{ site.url }}{{ site.baseurl }}{{ item.url }}"
       >{{ item.name }}</a
     >
     {% endif %} {% endfor %}
