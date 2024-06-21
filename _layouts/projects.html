@@ -7,7 +7,7 @@ layout: default
     <h3 class="fw-bold pb-3 mb-5">Projects</h3>
     {% for project in site.projects %}
     <a href="{{ site.url }}{{ site.baseurl }}{{ project.url }}" style="text-decoration: none;">
-      <div class="row g-5" >
+      <div class="row g-5 mb-4"> <!-- Added mb-4 class for margin-bottom -->
         <div class="col-md-8">
           <h4>{{ project.title }}</h4>
           <div>{{ project.description }}</div>
@@ -18,3 +18,4 @@ layout: default
     {% endfor %}
   </div>
 </div>
+
