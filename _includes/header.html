@@ -1,34 +1,24 @@
-<header
-  class="d-flex flex-column flex-md-row align-items-center pb-3 mb-5 border-bottom"
->
+<header class="d-flex flex-column flex-md-row align-items-center pb-3 mb-5 border-bottom">
   <div>
-    <a
-      href="{{ site.url }}{{ site.baseurl }}/"
-      class="d-flex align-items-center text-decoration-none"
-    >
+    <a href="{{ site.url }}{{ site.baseurl }}/" class="d-flex align-items-center text-decoration-none">
       <span class="fs-4 fw-bold">{{ site.data.settings.header_title }}</span>
     </a>
-    <a
-      href="{{ site.url }}{{ site.baseurl }}/"
-      class="d-flex align-items-center text-decoration-none"
-    >
+    <a href="{{ site.url }}{{ site.baseurl }}/" class="d-flex align-items-center text-decoration-none">
       <span>{{ site.description }}</span>
     </a>
   </div>
   <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-    {% for item in site.data.settings.menu %} {% if item.href %}
-    <a
-      class="me-3 py-2 text-decoration-none"
-      target="_blank"
-      href="{{ item.href }}"
-      >{{ item.name }}</a
-    >
-    {% else %}
-    <a
-      class="me-3 py-2 text-decoration-none"
-      href="{{ site.url }}{{ site.baseurl }}{{ item.url }}"
-      >{{ item.name }}</a
-    >
-    {% endif %} {% endfor %}
+    {% for item in site.data.settings.menu %}
+      {% if item.name == "alu chat" %}
+        <a class="me-3 py-2 text-decoration-none" href="{{ item.href }}">{{ item.name }}</a>
+      {% else %}
+        {% if item.href %}
+          <a class="me-3 py-2 text-decoration-none" target="_blank" href="{{ item.href }}">{{ item.name }}</a>
+        {% else %}
+          <a class="me-3 py-2 text-decoration-none" href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
   </nav>
 </header>
+
