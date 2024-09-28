@@ -3,6 +3,8 @@ layout: project
 title: "Commercial Relevance Classifier"
 description: Developed a commercial relevance classifier to enhance recommendation systems, matching user searches with relevant advertisers, and achieving a 92% accuracy rate.
 img: /assets/img/openads-classification.png
+date: 2024-09-28 
+
 ---
 
 <br>
