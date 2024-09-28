@@ -7,3 +7,4 @@ collections:
   projects: 
     output: true
     permalink: /projects/:title
+    sort_by: 'order'  # Add this line to explicitly sort by 'order'
