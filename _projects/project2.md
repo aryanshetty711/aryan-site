@@ -3,6 +3,7 @@ layout: project
 title: "BiLSTM-Based Semantic Role Labeling"
 description: Developed a BiLSTM model for semantic role labeling on the Nombank dataset to predict sentence arguments using token, POS, and BIO embeddings.
 img: /assets/img/bi-lstm.png
+order: 3  
 ---
 
 <br>

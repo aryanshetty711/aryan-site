@@ -3,6 +3,7 @@ layout: project
 title: "Deep Learning Model for ECG Arrhythmia Detection"
 description: Advanced Arrhythmia Detection in 12-Lead ECGs Using Deep Learning on the PTB-XL Dataset.
 img: /assets/img/ptb-xl.png
+order: 2  
 ---
 
 <br>
