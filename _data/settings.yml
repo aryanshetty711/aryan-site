@@ -3,11 +3,11 @@ header_title: aryan.
 menu:
 - {name: 'projects', url: '/projects'}
 - {name: 'photography', url: '/photography'}
-- {name: 'alu chat', href: '/blog'}
+# - {name: 'alu chat', href: '/blog'}
 - {name: 'resume', url: '/assets/resume.pdf'}
 
 social:
-- {icon: 'github', link: 'https://github.com/LeNPaul'}
-- {icon: 'twitter', link: 'https://twitter.com/paululele'}
-- {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
+- {icon: 'github', link: 'https://github.com/aryanshetty711'}
+- {icon: 'twitter', link: 'https://twitter.com/aryanshetty711'}
+- {icon: 'instagram', link: 'https://instagram.com/aryanshetty711'}
+- {icon: 'linkedin', link: 'https://linkedin.com/in/aryan-shetty'}
