@@ -2,7 +2,7 @@
 layout: project
 title: "Can LLMs Adapt to Speakers When Answering Questions?"
 description: Exploring the use of Direct Preference Optimization (DPO) to train language models that adapt their communication style based on the speaker’s identity and complexity level.
-img: /assets/img/llm_adaptation.jpg
+img: /assets/img/clcs.png
 order: 1
 ---
 

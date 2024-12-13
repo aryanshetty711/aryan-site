@@ -2,7 +2,7 @@
 layout: project
 title: "Scene Aware Vision Language Action Modeling for Robotic Manipulation"
 description: Improving robotic manipulation through Scene Aware OpenVLA, integrating attention masks, chain-of-thought reasoning, and depth features to enhance task execution.
-img: /assets/img/scene_aware_openvla.jpg
+img: /assets/img/openvla.png
 order: 1
 ---
 
